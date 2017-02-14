@@ -1,5 +1,5 @@
 FactoryGirl.define do
   factory :read do
-    url "MyString"
+    url { Faker::Internet.url }
   end
 end
